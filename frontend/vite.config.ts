@@ -4,7 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/GOA-EXAM-PREP-GAME/',
+  // Relative base keeps asset URLs working on any GitHub Pages project path
+  base: './',
   plugins: [
     react(),
     tailwindcss(),

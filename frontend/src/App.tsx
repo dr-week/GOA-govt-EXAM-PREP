@@ -39,7 +39,7 @@ export function App() {
 
   // Load questions directly from public/db_export.json
   useEffect(() => {
-    fetch('/db_export.json')
+    fetch(`${import.meta.env.BASE_URL}db_export.json`)
       .then((res) => res.json())
       .then((data: Question[]) => {
         setQuestions(data);

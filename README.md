@@ -1,152 +1,281 @@
 <div align="center">
 
-  # 🌴 Goa Government Exam Prep Studio 🚀
-  ### *The Ultimate GPSC, GSSC, LDC, MTS & State Exam Preparation Platform*
+# 🌴 Goa Government Exam Prep Studio 🚀
 
-  🌐 **Live Demo Application:**  
-  ### 👉 [Goa Govt Exam Master - Aptitude & GK Quiz Studio](https://dr-week.github.io/GOA-EXAM-PREP-GAME/) 👈
+### *GPSC • GSSC • LDC • MTS • Talathi — practice, mock tests and revision in one place*
 
-  <br>
+**A study platform built for Goa state competitive exam aspirants.**
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-10b981?style=for-the-badge&logo=github)](https://dr-week.github.io/GOA-EXAM-PREP-GAME/)
-  [![GitHub Stars](https://img.shields.io/github/stars/dr-week/GOA-EXAM-PREP-GAME?style=for-the-badge&color=6366f1)](https://github.com/dr-week/GOA-EXAM-PREP-GAME)
-  [![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](LICENSE)
-  [![Questions Database](https://img.shields.io/badge/Questions-226%20Indexed-06b6d4?style=for-the-badge)](data/db_export.json)
-  [![Android Ready](https://img.shields.io/badge/Android-Capacitor%20Ready-f59e0b?style=for-the-badge)](build_apk.bat)
+[![Live App](https://img.shields.io/badge/Live%20App-GitHub%20Pages-10b981?style=for-the-badge&logo=github)](https://dr-week.github.io/GOA-govt-EXAM-PREP/)
+[![Repository](https://img.shields.io/badge/GitHub-GOA--govt--EXAM--PREP-6366f1?style=for-the-badge&logo=github)](https://github.com/dr-week/GOA-govt-EXAM-PREP)
+[![Questions](https://img.shields.io/badge/Question%20Bank-2%2C056%20records-06b6d4?style=for-the-badge)](data/db_export.json)
+[![Stack](https://img.shields.io/badge/Stack-React%2019%20%2B%20TypeScript%20%2B%20Vite-61dafb?style=for-the-badge&logo=react)](frontend)
+[![Android](https://img.shields.io/badge/Android-Capacitor%20Ready-f59e0b?style=for-the-badge&logo=android)](build_apk.bat)
 
-  <p align="center">
-    <strong>Sleek Glassmorphic Interface • 100-Question OMR Simulator • Brain Arcade Games • Modular ES Engine</strong>
-  </p>
+**Built and maintained by [DANGER.LABS](https://github.com/Danger-Labs)**
 
 </div>
 
 ---
 
-## 🌟 Overview
+## 📖 What is this?
 
-Welcome to **Goa Exam Prep Studio** — an interactive web and native mobile application designed specifically for aspirants preparing for **Goa Public Service Commission (GPSC)**, **Goa Staff Selection Commission (GSSC)**, **Lower Division Clerk (LDC)**, **Multi-Tasking Staff (MTS)**, and **Talathi** competitive examinations.
+**Goa Government Exam Prep Studio** is an offline-first question bank and exam simulator for **Goa Public Service Commission (GPSC)**, **Goa Staff Selection Commission (GSSC)**, **Lower Division Clerk (LDC)**, **Multi-Tasking Staff (MTS)** and **Talathi** aspirants.
 
-Experience the live app now at **[Goa Govt Exam Master - Aptitude & GK Quiz Studio](https://dr-week.github.io/GOA-EXAM-PREP-GAME/)**!
+It ships with **2,056 indexed question records** across **23 subject banks** — Goa history, geography, polity, current affairs, Konkani/RTI, aptitude, reasoning and general studies — plus a full **100-question OMR exam hall** with a 30-minute countdown, a **50:50 lifeline**, instant explanations and XP-based progress tracking.
 
-Built with **Zero-Dependency Vanilla Web Technologies (HTML5, Vanilla CSS Glassmorphism, Modular ES JS)**, this platform packs a **226+ Question Relational SQLite Database**, an **OMR Exam Simulator with 30-Minute Timer**, **Interactive Brain Training Arcade Games**, and an **Android Packaging Pipeline**!
-
----
-
-## ⚡ Key Features
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ 🏛️ FULL GOVT EXAM ARENA (OMR SIMULATOR)                                      │
-│    • Standalone new-tab exam launcher (exam.html) for distraction-free tests│
-│    • 100-Question interactive OMR palette grid with instant feedback        │
-│    • 30-minute exam countdown timer with auto-submit guards                 │
-│    • Double-Randomizer Engine (shuffles question order & A/B/C/D choices)   │
-└─────────────────────────────────────────────────────────────────────────────┘
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ 🧠 BRAIN ARCADE GAMES                                                       │
-│    • 🃏 Memory Match: Sharpen visual memory with Goa landmarks & symbols     │
-│    • ⚡ 60-Second Speed Math Trainer: Boost rapid quantitative calculations   │
-└─────────────────────────────────────────────────────────────────────────────┘
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ 📚 STRUCTURED MARKDOWN QUESTION BANKS & STUDY READER                         │
-│    • 226+ curated questions categorized across 13 subject domains           │
-│    • Real-time search engine filtering questions & explanations             │
-│    • LocalStorage bookmarking system for tricky questions revision          │
-└─────────────────────────────────────────────────────────────────────────────┘
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ 📱 NATIVE ANDROID MOBILE OPTIMIZATION                                       │
-│    • Responsive 60fps glassmorphic UI with native bottom navigation bar    │
-│    • Capacitor build scripts (`build_apk.bat` / `make_apk.py`) for APKs      │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+Everything is plain web technology: no account, no server and no paid API. The React app reads a single JSON file, and the question banks are compiled from Markdown into SQLite and JSON by a small Python toolchain.
 
 ---
 
-## 🏝️ Subject Domains Covered (13 Question Banks)
+## ✨ Features
 
-| Icon | Topic Domain | Syllabus Details |
-| :---: | :--- | :--- |
-| 🆕 | **Goa Current Affairs 2026** | Kushavati 3rd District (HQ Quepem), ULLAS Literacy, Sukanya Scheme, Startup Policy |
-| 🏝️ | **Goa Special GK** | 1961 Liberation, 3 Districts Update, Konkani Official Language Act 1987 |
-| ⛰️ | **Geography & Ports** | Sonsogor Peak (1,166m), Zuari River, Mormugao Port, New Zuari Cable Bridge |
-| 🎭 | **Culture & Schemes** | Shigmo Festival, Divar Bonderam, Griha Aadhar Scheme, Chikhal Kalo |
-| 🚩 | **Freedom Struggle** | 1580 Cuncolim Revolt, 1787 Pinto Revolt, Dr. T.B. Cunha, Lohia 18 June 1946 |
-| 📜 | **Konkani & RTI** | Devanagari Vocabulary, Goa RTI Act 30-day/48-hr timelines |
-| 💻 | **Computer Awareness** | MS Office shortcuts, Goa Online e-Governance, Dharani Land Records |
-| ⚖️ | **Goa Polity** | Article 371I, 40 Assembly Seats, 2 Lok Sabha Seats, Panchayati Raj |
-| 🔢 | **Quantitative Aptitude** | Percentages, Profit/Loss, Speed/Distance, Simple & Compound Interest |
-| 🧩 | **Logical Reasoning** | Coding-Decoding, Blood Relations, Number Series, Antonyms |
-| 🔥 | **General Studies India** | 50 Master Questions on History, Science, Economics & National Geography |
+### 🏛️ Official OMR Exam Arena
+- Full **100-question paper** drawn at random from every subject bank.
+- **30-minute countdown** with an auto-submit guard.
+- **OMR answer palette** — jump to any question, see answered/unanswered state at a glance.
+- **🔥 50:50 lifeline** removes two wrong options per question.
+- **Double randomizer**: question order *and* option order are shuffled each attempt.
+- Post-exam **score modal** with score, accuracy and XP earned.
+
+### 📚 Subject Practice Studio
+- Pick any of the **23 topic banks** for a focused drill.
+- Instant answer feedback with a written explanation for every question.
+- XP, levels (Novice Aspirant → GPSC Master), streaks and an optional sound toggle.
+- Interface available in **English and Konkani (कोंकणी)**.
+
+### 🔖 Revision Bank
+- Search the whole question bank by keyword.
+- Filter by subject or by saved bookmarks.
+- Bookmark tricky questions for revision before exam day.
+
+### 🧠 Brain Arcade
+- **60-Second Speed Math Trainer** — rapid quantitative calculation.
+- **Memory Match** — card-matching game for visual memory.
+
+### 📱 Mobile & Android
+- Responsive glassmorphic UI with a native-style bottom navigation bar.
+- Capacitor build scripts to wrap the web app as an Android APK.
+
+### 🗃️ Data Pipeline
+- Questions authored in readable **Markdown** (`data/*.md`).
+- Compiled to **SQLite** (`data/questions.db`) **and JSON** (`data/db_export.json`).
+- Duplicate detection and formatting audit before every release.
+- **Pytest** suite for the data/backend side and **Vitest** for the React frontend.
 
 ---
 
-## 🛠️ Automated Scripts & Quality Control Matrix
+## 🏝️ Question Banks
 
-| Command | Purpose |
+| Icon | Bank | Questions |
+| :---: | :--- | ---: |
+| 🆕 | Goa Current Affairs 2026 | 10 |
+| 🏝️ | Goa Special GK | 12 |
+| ⛰️ | Goa Geography — Rivers & Estuaries | 105 |
+| 🎭 | Goa Culture & Schemes | 5 |
+| 🚩 | Goa Freedom Struggle | 105 |
+| 🏛️ | Goa Heritage & Architecture | 100 |
+| 🛕 | Goa Panchayat & Municipal Administration | 100 |
+| 🗺️ | Goa Polity & Service Rules | 105 |
+| 🌿 | Goa Wildlife, Fauna & Sanctuaries | 100 |
+| 🏗️ | Goa Schemes & Infrastructure | 100 |
+| 📜 | Goa History Gazetteer (Advanced) | 100 |
+| 🎓 | GPSC Advanced / Hard | 10 |
+| 📜 | Konkani & RTI | 5 |
+| 💻 | Computer Awareness | 5 |
+| ⚖️ | Indian Polity (Goa focus) | 5 |
+| 🔢 | Quantitative Aptitude & DI | 106 |
+| 🧩 | Logical Reasoning | 5 |
+| 🔥 | General Studies — India | 50 |
+| 🎲 | Randomized Mock Exam Compilation | 1,028 |
+| | **Total** | **2,056** |
+
+> The 1,028-question *Randomized Mock Exam* bank is a shuffled compilation of the subject banks, used by the full-length exam simulator. The remaining records are the source question banks.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
 | :--- | :--- |
-| `python src/manage_db.py audit` | Audits all Markdown banks for 0 duplicate questions & 0 formatting blunders. |
-| `python src/manage_db.py compile` | Compiles Markdown banks (`data/*.md`) into SQLite DB (`questions.db`) & JSON (`db_export.json`). |
-| `python src/manage_db.py seed-bulk` | Programmatically generates 500+ Goa Q&A into the database. |
-| `python src/manage_db.py test` | Runs the full end-to-end Pytest suite verifying DB integrity and UI structure. |
-| `.\build_apk.bat` | Packages the web application into a native Android `.apk` installer using Ionic Capacitor. |
+| Frontend | React 19, TypeScript, Vite 8 |
+| Styling | Tailwind CSS 4, glassmorphic UI |
+| Animation & icons | Framer Motion, Lucide React |
+| Effects | canvas-confetti |
+| Data pipeline | Python 3, SQLite, Markdown |
+| Testing | Pytest (data/backend), Vitest + Testing Library (frontend) |
+| Packaging | Capacitor (Android APK) |
+| Hosting | GitHub Pages via GitHub Actions |
 
 ---
 
 ## 🚀 Quick Start
 
-### 🌐 Play Online (No Installation Required)
-Launch the live application in any browser:  
-👉 **[Goa Govt Exam Master - Aptitude & GK Quiz Studio](https://dr-week.github.io/GOA-EXAM-PREP-GAME/)**
+### Option A — Play online
 
-### 1. Serve Locally
-Simply start a lightweight Python web server:
+👉 **[Open the live app](https://dr-week.github.io/GOA-govt-EXAM-PREP/)**
+
+### Option B — Run the React app locally
+
+```bash
+git clone https://github.com/dr-week/GOA-govt-EXAM-PREP.git
+cd GOA-govt-EXAM-PREP/frontend
+npm install
+npm run dev
+```
+
+Vite prints a local URL (usually `http://localhost:5173/`). The app loads the question bank from `frontend/public/db_export.json`, so make sure that file is up to date (see the data pipeline below).
+
+### Option C — Run the legacy static studio
+
+The original zero-dependency build (`index.html`, `exam.html`, `js/`, `style.css`) still works:
+
 ```bash
 python -m http.server 8000
 ```
-Open **`http://localhost:8000`** in your browser!
 
-### 2. Build Android APK
-Ensure Node.js is installed, then run:
+Then open `http://localhost:8000/` for the studio and `http://localhost:8000/exam.html` for the standalone exam hall.
+
+### Option D — Build an Android APK
+
+With Node.js and the Android SDK installed:
+
 ```bash
 build_apk.bat
 ```
 
+The script installs Capacitor, creates the native Android project, syncs the web assets and points you to `android/app/build/outputs/apk/debug/app-debug.apk`.
+
 ---
 
-## 📜 Architecture & Codebase Design
+## 🗃️ Question Bank CLI
 
-The codebase has been refactored into a modern, modular structure, pivoting towards a React/Tailwind/Supabase ecosystem:
+All data operations go through one entry point:
+
+```bash
+python src/manage_db.py audit      # Check Markdown banks for duplicates and formatting errors
+python src/manage_db.py compile    # Rebuild questions.db + db_export.json from data/*.md
+python src/manage_db.py seed-bulk  # Generate 500+ additional Goa Q&A records
+python src/manage_db.py test       # Run the Pytest suite
+python src/manage_db.py ci         # audit → compile → pytest → vitest → production build
+```
+
+After changing any Markdown bank, run `compile` and copy the new export into the frontend:
+
+```bash
+python src/manage_db.py compile
+cp data/db_export.json frontend/public/db_export.json
+```
+
+### Question format
+
+Each question is a Markdown block in `data/<bank>.md`:
+
+```markdown
+### Question 1
+**Mormugao Port, the major seaport of Goa, is situated at the mouth of which river?**
+- A) Mandovi River
+- B) Zuari River
+- C) Chapora River
+- D) Sal River
+
+**Answer:** B) Zuari River
+**Explanation:** Mormugao Port is a major natural harbor in South Goa located at the mouth of the Zuari River.
+```
+
+The compiler reads these blocks and writes the SQLite database plus the JSON export consumed by the web apps.
+
+---
+
+## 📁 Project Structure
+
 ```text
-govtexamtest/
-├── /src                    # Source code for the backend and data pipelines
-│   ├── manage_db.py        # The ONLY unified CLI tool for all database operations
-│   ├── compile_db.py       # SQLite database builder
-│   ├── deep_audit_md.py    # Automated Markdown blunder & duplicate detector
-│   └── create_500_goa.py   # Bulk question generator
-├── /tests                  # Pytest automated testing suite
-│   ├── test_ui_suite.py
-│   └── test_fast.py
-├── /data                   # Subject Markdown Question Banks & Databases
-│   ├── questions.db
-│   └── db_export.json
-├── /public                 # Frontend Web App assets (HTML/CSS/JS)
-│   ├── index.html
-│   └── /js                 # Modular ES JS Engine
-└── build_apk.bat           # Capacitor APK build script
+GOA-govt-EXAM-PREP/
+├── frontend/                    # React 19 + TypeScript + Vite application
+│   ├── src/
+│   │   ├── components/          # Home, ExamArena, BrainArcade, RevisionBank, Navbar…
+│   │   ├── utils/               # cn(), audio, i18n (English + Konkani)
+│   │   ├── tests/               # Vitest suite
+│   │   └── App.tsx              # Tab routing, XP/level/bookmark state
+│   ├── public/
+│   │   └── db_export.json       # Question bank served to the app
+│   └── vite.config.ts
+├── src/                         # Python data pipeline
+│   ├── manage_db.py             # Unified CLI (audit / compile / test / ci)
+│   ├── compile_db.py            # Markdown → SQLite + JSON
+│   ├── deep_audit_md.py         # Duplicate & formatting audit
+│   ├── create_500_goa.py        # Bulk question generator
+│   └── randomizer_engine.py     # Exam shuffling helpers
+├── data/                        # 23 Markdown question banks
+│   ├── questions.db             # Compiled SQLite database
+│   └── db_export.json           # Compiled JSON export
+├── tests/                       # Pytest suite
+├── js/                          # Legacy vanilla JS engine
+├── index.html                   # Legacy studio entry point
+├── exam.html                    # Legacy standalone OMR exam hall
+├── style.css
+├── build_apk.bat                # Capacitor Android build helper
+└── .github/workflows/           # Pages deploy + APK build workflows
 ```
 
 ---
 
-## 🔗 Integrated Open-Source Repositories
+## 🧪 Testing
 
-- **[ratneshmaurya/Aptitude_Practice_Questions](https://github.com/ratneshmaurya/Aptitude_Practice_Questions)** – Aptitude question banks.
-- **[drsarveshwarbharti/Aptitude-For-Placements](https://github.com/drsarveshwarbharti/Aptitude-For-Placements)** – Placement quantitative logic.
-- **[rohanmistry231/CSE-Aptitude-Test-Practice-Hub](https://github.com/rohanmistry231/CSE-Aptitude-Test-Practice-Hub)** – Difficulty-categorized sets.
-- **[kubowania/memory-game](https://github.com/kubowania/memory-game)** – Memory card matching game pattern.
-- **[ionic-team/capacitor](https://github.com/ionic-team/capacitor)** – Web-to-Native Android container framework.
+```bash
+# Python: data integrity, exam rules, frontend schema
+python -m pytest tests/
+
+# React: components, state, i18n, audio
+cd frontend
+npm test
+
+# Production build
+npm run build
+```
 
 ---
 
+## ☁️ Deployment
+
+The React app is built and published to **GitHub Pages** by `.github/workflows/deploy.yml` on every push to `master`:
+
+1. `npm ci` and `npm run build` inside `frontend/`
+2. Upload `frontend/dist` as the Pages artifact
+3. Deploy with `actions/deploy-pages`
+
+`.github/workflows/static.yml` can publish the legacy static studio from the repository root, and `.github/workflows/build_apk.yml` builds a debug APK on demand.
+
+To deploy from your own fork, enable **Settings → Pages → Source: GitHub Actions**.
+
+---
+
+## 🤝 Credits
+
+**Created and maintained by [DANGER.LABS](https://github.com/Danger-Labs).**
+
+This project builds on the work of the open-source community:
+
+- [React](https://react.dev/) · [Vite](https://vite.dev/) · [TypeScript](https://www.typescriptlang.org/) · [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) · [Lucide Icons](https://lucide.dev/) · [canvas-confetti](https://github.com/catdad/canvas-confetti)
+- [Capacitor](https://capacitorjs.com/) for Android packaging
+- Aptitude question inspiration: [ratneshmaurya/Aptitude_Practice_Questions](https://github.com/ratneshmaurya/Aptitude_Practice_Questions), [drsarveshwarbharti/Aptitude-For-Placements](https://github.com/drsarveshwarbharti/Aptitude-For-Placements), [rohanmistry231/CSE-Aptitude-Test-Practice-Hub](https://github.com/rohanmistry231/CSE-Aptitude-Test-Practice-Hub)
+- Memory-game pattern: [kubowania/memory-game](https://github.com/kubowania/memory-game)
+
+---
+
+## ⚠️ Disclaimer
+
+This is an independent, unofficial study tool. It is **not affiliated with, endorsed by, or connected to** the Goa Public Service Commission, the Goa Staff Selection Commission, or any government body.
+
+Question content is compiled for practice and revision. Exam patterns, syllabus details, schemes and current-affairs facts change over time — always verify against the latest official notification before relying on them for an actual exam.
+
+---
+
+## 📄 License
+
+Released under the **MIT License**.
+
 <div align="center">
-  <sub>Built for Goa competitive exam aspirants with ❤️</sub>
+  <sub>Made for Goa's exam aspirants with ❤️ by <a href="https://github.com/Danger-Labs">DANGER.LABS</a></sub>
 </div>
